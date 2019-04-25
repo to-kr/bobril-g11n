@@ -18,5 +18,5 @@ steps:
     npm -g install bobril-build
   displayName: 'install bobril-build'
 - script: |
-    npm test
-  displayName: 'npm test'
+    npm install & npm test
+  displayName: 'npm install & npm test'
